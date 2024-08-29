@@ -25,6 +25,7 @@ const config = {
         "2xl": "1400px",
       },
     },
+    // 000319
     extend: {
       colors: {
         black: {

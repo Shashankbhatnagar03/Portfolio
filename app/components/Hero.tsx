@@ -6,7 +6,7 @@ import MagicButton from "./ui/MagicButton";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-20">
+    <div className="pb-20 pt-20 overflow-hidden mx-auto sm:px-10 px-5">
       <div>
         <Spotlight
           className="-top-40 -left-10  md:-left-32 md:-top-20 h-screen"
@@ -25,7 +25,7 @@ const Hero = () => {
               Hi 👋
             </h2> */}
             <TextGenerateEffect
-              className="text-center text-[40px] md:text-4xl lg:text-5xl"
+              className="text-center text-3xl md:text-4xl lg:text-5xl"
               words="Hi 👋 , I 'm Shashank <>FullStack developer</>"
             />
             <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">

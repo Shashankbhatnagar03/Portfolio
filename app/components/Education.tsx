@@ -76,7 +76,7 @@ const Education = () => {
   return (
     <div>
       {/* <div className="flex justify-center heading">Education</div> */}
-      <div id="education">
+      <div id="education" className="overflow-hidden mx-auto sm:px-10 px-5">
         <Timeline data={data} />
       </div>
     </div>

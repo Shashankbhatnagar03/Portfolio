@@ -27,7 +27,7 @@ export const projects = [
 
 export const navItems = [
   { name: "Skills", link: "#skills" },
-  { name: "Projects", link: "#projects" },
+  { name: "Projects", link: "#project" },
   { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
