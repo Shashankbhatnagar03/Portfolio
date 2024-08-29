@@ -38,7 +38,7 @@ function Links() {
     {
       title: "Codeforces",
       icon: (
-        <IconChartBar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconChartBar className="h-15 w-15 text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://codeforces.com/profile/Shashank_bhatnagar03",
     },

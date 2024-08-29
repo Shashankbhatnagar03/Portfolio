@@ -1,19 +1,65 @@
 import React from "react";
-import { socials } from "../data";
+// import { socials } from "../data";
 import { Vortex } from "./ui/Vortex";
 import Links from "./Links";
+import {
+  IconBrandGithub,
+  IconBrandLeetcode,
+  IconBrandLinkedin,
+  IconBrandX,
+  IconChartBar,
+} from "@tabler/icons-react";
 
 function Contact() {
+  const socials = [
+    {
+      id: 1,
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/shashank-bhatnagar-874247216/",
+      icon: <IconBrandLinkedin className="h-full w-full text-blue-300" />,
+    },
+    {
+      id: 2,
+      title: "Leetcode",
+      link: "https://leetcode.com/u/Shashank_bhatnagar03/",
+      icon: <IconBrandLeetcode className="h-full w-full text-orange-300" />,
+    },
+    {
+      id: 3,
+      title: "Twitter",
+      link: "https://x.com/Shanks__03",
+      icon: (
+        <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+    },
+    {
+      id: 4,
+      title: "Github",
+      link: "https://github.com/Shashank_bhatnagar03",
+      icon: (
+        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+    },
+    {
+      id: 5,
+      title: "CodeForces",
+      link: "https://codeforces.com/profile/Shashank_bhatnagar03",
+      icon: (
+        <IconChartBar className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+    },
+  ];
+
   return (
     <div
       className="w-[calc(100%)] rounded-md  h-[30rem] overflow-hidden pt-10 mt-10 "
       id="contact"
     >
       <Vortex className="flex items-center flex-col justify-center py-4 w-full h-full ">
-        <h2 className="text-white px-2  md:px-10  text-2xl md:text-6xl font-bold text-center">
+        <h2 className="text-white px-2  md:px-10  text-3xl md:text-6xl font-bold text-center">
           Wanna <span className="text-purple">Connect ?</span>
         </h2>
-        <p className="text-white text-sm md:text-2xl max-w-xl mt-6 text-center">
+        <p className="text-white text-md md:text-3xl max-w-xl mt-6 text-center">
           Join me on my social and coding adventures:
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
@@ -25,14 +71,15 @@ function Contact() {
               {socials.map((social, index) => (
                 <div
                   key={index}
-                  className="border border-red-200/[.2] rounded-full lg:w-14 lg:h-14 w-10 h-10 flex justify-center items-center overflow-hidden bg-red-100 mx-2 sm:mx-3 hover:bg-purple-500 hover:scale-110 transition duration-300 ease-in-out relative"
+                  className=" rounded-full  flex justify-center items-center overflow-hidden bg-transparent mx-2 sm:mx-3 hover:bg-purple-500 hover:scale-110 transition duration-300 ease-in-out relative"
                 >
                   <a
                     href={social.link}
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="sm:max-w-[90%]"
                   >
-                    <img src={social.icon} alt="icon" className="p-2" />
+                    <div className="p-2">{social.icon}</div>
                   </a>
                 </div>
               ))}

@@ -31,36 +31,3 @@ export const navItems = [
   { name: "Education", link: "#education" },
   { name: "Contact", link: "#contact" },
 ];
-
-export const socials = [
-  {
-    id: 1,
-    title: "LinkedIn",
-    link: "https://www.linkedin.com/in/shashank-bhatnagar-874247216/",
-    icon: "/linkedin.svg",
-  },
-  {
-    id: 2,
-    title: "Leetcode",
-    link: "https://leetcode.com/u/Shashank_bhatnagar03/",
-    icon: "/leetcode.svg",
-  },
-  {
-    id: 3,
-    title: "Twitter",
-    link: "https://x.com/Shanks__03",
-    icon: "/twitter.svg",
-  },
-  {
-    id: 4,
-    title: "Github",
-    link: "https://github.com/Shashankbhatnagar03",
-    icon: "/github.svg",
-  },
-  {
-    id: 5,
-    title: "CodeForces",
-    link: "https://codeforces.com/profile/Shashank_bhatnagar03",
-    icon: "/codeforces.svg",
-  },
-];
