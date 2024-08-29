@@ -59,7 +59,7 @@ function Contact() {
         <h2 className="text-white px-2  md:px-10  text-3xl md:text-6xl font-bold text-center">
           Wanna <span className="text-purple">Connect ?</span>
         </h2>
-        <p className="text-white text-md md:text-3xl max-w-xl mt-6 text-center">
+        <p className="text-white text-md md:text-2xl max-w-xl mt-6 text-center">
           Join me on my social and coding adventures:
         </p>
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-6">
