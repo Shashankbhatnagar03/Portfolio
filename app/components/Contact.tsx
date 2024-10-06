@@ -35,7 +35,7 @@ function Contact() {
     {
       id: 4,
       title: "Github",
-      link: "https://github.com/Shashank_bhatnagar03",
+      link: "https://github.com/Shashankbhatnagar03",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
