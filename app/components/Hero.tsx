@@ -34,7 +34,7 @@ const Hero = () => {
             </p>
             <div>
               <MagicButton
-                url="https://drive.google.com/file/d/1D5FupfJ86HWFqt9fdN98SQuOGiymtdYK/view?usp=sharing"
+                url="https://drive.google.com/file/d/14wSv1rMUPkPcQ8DDuMZoBccRHZmQLbzn/view?usp=sharing"
                 text="Download Resume"
               />
             </div>
