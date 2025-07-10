@@ -6,9 +6,9 @@ import Skills from "@/app/components/Skills";
 import { FloatingNav } from "@/app/components/ui/FloatingNavbar";
 import { navItems } from "./data";
 import { Timeline } from "@/app/components/ui/Timeline";
-import Education from "./components/Education";
 import Links from "./components/Links";
 import Contact from "./components/Contact";
+import Experience from "./components/Experience";
 // import { ModeToggle } from "./components/ui/ModeToggle";
 
 export default function Home() {
@@ -18,9 +18,10 @@ export default function Home() {
         {/* <ModeToggle /> */}
         <FloatingNav navItems={navItems} />
         <Hero />
+        <Experience />
         <Skills />
         <Projects />
-        <Education />
+        {/* <Education /> */}
         <Contact />
       </div>
     </main>
